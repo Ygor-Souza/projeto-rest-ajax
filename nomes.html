@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Nomes de Alunos</title>
+</head>
+<body>
+  <h1>Nomes dos Alunos</h1>
+  <nav>
+    <a href="index.html">Ver Detalhes Completos</a>
+    <a href="cadastro-aluno.html">Cadastrar Novo Aluno</a>
+  </nav>
+  <hr>
+  <ul id="listaNomes">
+    <li>Carregando nomes...</li>
+  </ul>
+
+  <script src="app.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", listarNomes);
+  </script>
+</body>
+</html>
